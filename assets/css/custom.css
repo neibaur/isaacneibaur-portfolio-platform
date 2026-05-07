@@ -429,6 +429,184 @@ a.display-list-title:hover {
   color: rgb(209 213 219);
 }
 
+.projects-focus {
+  padding-bottom: 1.25rem;
+}
+
+.projects-focus .max-w-prose,
+.projects-selected .max-w-prose {
+  max-width: 56rem;
+}
+
+.projects-focus .prose {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.projects-focus-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.projects-focus-list div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.projects-focus-list strong {
+  color: rgb(31 41 55);
+  font-size: 0.98rem;
+  font-weight: 750;
+}
+
+.dark .projects-focus-list strong {
+  color: rgb(229 231 235);
+}
+
+.projects-focus-list span {
+  color: rgb(75 85 99);
+  font-size: 0.96rem;
+}
+
+.dark .projects-focus-list span {
+  color: rgb(209 213 219);
+}
+
+.projects-selected {
+  padding-top: 1.5rem;
+}
+
+.projects-selected .container {
+  max-width: 72rem;
+}
+
+.projects-selected [role="article"] {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border-radius: 0.75rem;
+}
+
+.projects-selected [role="article"] > div:first-child {
+  aspect-ratio: 16 / 9;
+}
+
+.projects-selected [role="article"] > div:first-child a > div {
+  position: relative;
+}
+
+.projects-selected [role="article"] > div:first-child svg {
+  display: none;
+}
+
+.projects-selected [role="article"] > div:first-child a > div::before,
+.projects-selected [role="article"] > div:first-child a > div::after {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 0.35);
+  color: rgb(255 255 255 / 0.86);
+  font-weight: 750;
+  letter-spacing: 0.08em;
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/cloudflare-governance-platform/"]) > div:first-child a > div {
+  background:
+    radial-gradient(circle at 28% 30%, rgb(251 146 60 / 0.55), transparent 28%),
+    radial-gradient(circle at 72% 36%, rgb(14 165 233 / 0.42), transparent 30%),
+    linear-gradient(135deg, #102033, #172b43 52%, #0f172a);
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/cloudflare-governance-platform/"]) > div:first-child a > div::before {
+  content: "IaC";
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1.5rem;
+  background: rgb(15 23 42 / 0.46);
+  box-shadow: 0 0 0 1rem rgb(255 255 255 / 0.05);
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/cloudflare-governance-platform/"]) > div:first-child a > div::after {
+  content: "";
+  width: 12rem;
+  height: 5rem;
+  border-radius: 999px;
+  transform: translate(2.5rem, 2.25rem);
+  background: rgb(249 115 22 / 0.28);
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/100daydash-engineering-blog/"]) > div:first-child a > div {
+  background:
+    linear-gradient(90deg, rgb(248 250 252 / 0.14) 1px, transparent 1px),
+    linear-gradient(0deg, rgb(248 250 252 / 0.12) 1px, transparent 1px),
+    linear-gradient(135deg, #111827, #1f2937 50%, #312e81);
+  background-size: 42px 42px, 42px 42px, auto;
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/100daydash-engineering-blog/"]) > div:first-child a > div::before {
+  content: "DOCS";
+  width: 9rem;
+  height: 6rem;
+  border-radius: 1rem;
+  background: rgb(15 118 110 / 0.46);
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/100daydash-engineering-blog/"]) > div:first-child a > div::after {
+  content: "";
+  width: 13rem;
+  height: 7rem;
+  border-radius: 1rem;
+  transform: translate(3rem, 1.7rem);
+  background:
+    linear-gradient(90deg, transparent 0 20%, rgb(196 181 253 / 0.5) 20% 26%, transparent 26% 52%, rgb(196 181 253 / 0.5) 52% 58%, transparent 58%),
+    rgb(255 255 255 / 0.08);
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/nhtsa-recall-intelligence/"]) > div:first-child a > div {
+  background:
+    radial-gradient(circle at 70% 30%, rgb(56 189 248 / 0.36), transparent 26%),
+    linear-gradient(135deg, #0f172a, #1e3a8a 52%, #172033);
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/nhtsa-recall-intelligence/"]) > div:first-child a > div::before {
+  content: "API";
+  width: 8rem;
+  height: 4.4rem;
+  border-radius: 2rem 2rem 1rem 1rem;
+  background: rgb(37 99 235 / 0.52);
+  box-shadow:
+    -2.9rem 3.5rem 0 -1.6rem rgb(15 23 42),
+    2.9rem 3.5rem 0 -1.6rem rgb(15 23 42);
+}
+
+.projects-selected [role="article"]:has(a[href="/projects/nhtsa-recall-intelligence/"]) > div:first-child a > div::after {
+  content: "";
+  width: 12rem;
+  height: 7rem;
+  border-radius: 1rem;
+  transform: translate(3rem, -1rem);
+  background:
+    linear-gradient(135deg, transparent 45%, rgb(191 219 254 / 0.65) 46% 52%, transparent 53%),
+    rgb(248 250 252 / 0.12);
+}
+
+.projects-selected [role="article"] > div:last-child {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.projects-selected [role="article"] h3 {
+  min-height: 3.25rem;
+}
+
+.projects-selected .line-clamp-3 {
+  display: block;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+
 .landing-featured {
   padding-top: 3rem;
   padding-bottom: 1.5rem;

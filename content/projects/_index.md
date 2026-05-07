@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '3rem'
 
 # Page sections
 sections:
@@ -13,18 +13,31 @@ sections:
     content:
       title: Current Engineering Focus
       text: |
-        - Cloudflare governance and remediation platform using Python, Terraform, GitHub Actions, and the Cloudflare API
-        - Infrastructure-as-Code workflows with automated validation, scheduled audits, and secure secret handling
-        - Repository governance and DevSecOps practices with Dependabot, CodeQL, secret scanning, and branch protection
-        - Data engineering workflows using APIs, ETL pipelines, medallion-style architecture, Supabase, PostgreSQL, and dashboard integrations
-        - Public engineering documentation at 100daydash.blog covering platform engineering, cloud infrastructure, automation, analytics, and software development
+        <div class="projects-focus-list">
+          <div>
+            <strong>Cloud Automation & IaC:</strong>
+            <span>Cloudflare governance, Terraform workflows, scheduled audits, secure secret handling, and optional remediation.</span>
+          </div>
+          <div>
+            <strong>DevSecOps & Governance:</strong>
+            <span>Dependabot, CodeQL, secret scanning, branch protection, automated validation, and CI/CD quality gates.</span>
+          </div>
+          <div>
+            <strong>Data Engineering & APIs:</strong>
+            <span>API ingestion, ETL pipelines, medallion-style modeling, Supabase/PostgreSQL, and dashboard-ready outputs.</span>
+          </div>
+          <div>
+            <strong>Public Technical Documentation:</strong>
+            <span>100DayDash notes covering platform engineering, cloud infrastructure, automation, analytics, and delivery tradeoffs.</span>
+          </div>
+        </div>
     design:
-      css_class: "wide-block"
+      css_class: "wide-block projects-focus"
 
   - block: collection
     content:
       title: Selected Projects
-      text: Recent portfolio projects and in-progress case studies demonstrating cloud automation, infrastructure governance, API-driven data engineering, analytics platforms, and public engineering documentation.
+      text:
       filters:
         folders:
           - projects
@@ -35,4 +48,5 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
+      css_class: "projects-selected"
 ---
