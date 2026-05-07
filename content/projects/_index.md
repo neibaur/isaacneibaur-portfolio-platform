@@ -13,18 +13,18 @@ sections:
     content:
       title: Current Engineering Focus
       text: |
-        - Cloudflare governance and remediation platform using Terraform, GitHub Actions, and Python
-        - Public 100-day engineering initiative documenting cloud infrastructure and data platform development
-        - NHTSA analytics platform using API ingestion, medallion-style architecture, Supabase, and Power BI
-        - DevSecOps workflows with CodeQL, Dependabot, automated validation, and CI/CD governance
-        - Dashboard engineering projects using Power BI, Looker Studio, Astro, Hugo, and Python visualization tools
+        - Cloudflare governance and remediation platform using Python, Terraform, GitHub Actions, and the Cloudflare API
+        - Infrastructure-as-Code workflows with automated validation, scheduled audits, and secure secret handling
+        - Repository governance and DevSecOps practices with Dependabot, CodeQL, secret scanning, and branch protection
+        - Data engineering workflows using APIs, ETL pipelines, medallion-style architecture, Supabase, PostgreSQL, and dashboard integrations
+        - Public engineering documentation at 100daydash.blog covering platform engineering, cloud infrastructure, automation, analytics, and software development
     design:
       css_class: "wide-block"
 
   - block: collection
     content:
       title: Selected Projects
-      text: A focused collection of recent portfolio projects and in-progress case studies demonstrating data engineering, dashboard development, automation, and cloud-integrated analytics. In-progress projects are included when they show real implementation progress.
+      text: Recent portfolio projects and in-progress case studies demonstrating cloud automation, infrastructure governance, API-driven data engineering, analytics platforms, and public engineering documentation.
       filters:
         folders:
           - projects

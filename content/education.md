@@ -12,8 +12,10 @@ design:
 sections:
   - block: markdown
     content:
-      title: 🎓 Certifications
+      title: Certifications
       text: |
+        Current credential aligned to analytics platform delivery and dashboard engineering.
+
         {{< display_list key="certifications" type="all" header="" >}}
   - block: education
     content:

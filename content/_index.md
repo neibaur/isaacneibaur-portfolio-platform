@@ -51,7 +51,7 @@ sections:
           <article class="landing-card">
             <div>
               <h3>Cloudflare Governance Platform</h3>
-              <p>Governance automation platform for security audits, remediation workflows, policy validation, and infrastructure control.</p>
+              <p>Infrastructure governance platform for automated security auditing, remediation workflows, and policy enforcement.</p>
             </div>
             <div class="landing-tags">
               <span>Terraform</span>
@@ -63,7 +63,7 @@ sections:
           <article class="landing-card">
             <div>
               <h3><a href="/projects/nhtsa-recall-intelligence/">NHTSA Data Platform</a></h3>
-              <p>Vehicle safety data platform for API ingestion, medallion-style modeling, relational storage, and dashboard-ready analytics.</p>
+              <p>Vehicle safety analytics platform for API ingestion, medallion-style modeling, relational storage, and dashboard-ready insights.</p>
             </div>
             <div class="landing-tags">
               <span>APIs</span>
@@ -75,7 +75,7 @@ sections:
           <article class="landing-card">
             <div>
               <h3><a href="https://100daydash.blog/">100DayDash Engineering Blog</a></h3>
-              <p>Public engineering journal documenting automation, platform work, observability, and dashboard development.</p>
+              <p>Public engineering journal documenting automation, platform delivery, observability, and dashboard development.</p>
             </div>
             <div class="landing-tags">
               <span>Technical Writing</span>

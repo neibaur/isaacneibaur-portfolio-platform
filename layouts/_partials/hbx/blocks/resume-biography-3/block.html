@@ -269,6 +269,7 @@
           {{ else if eq (printf "%T" $affiliations_raw) "string" }}
             {{ $affiliations = slice $affiliations_raw }}
           {{ end }}
+          {{ $affiliation_items := slice }}
           {{ range $affiliations }}
             {{ $aff_name := "" }}
             {{ $aff_url := "" }}
@@ -286,8 +287,16 @@
             {{ end }}
             {{ $aff_name = strings.TrimSpace $aff_name }}
             {{ $aff_url = strings.TrimSpace $aff_url }}
-            {{ if $aff_name }}
-              <p class="text-lg text-gray-700 dark:text-gray-300">
+            {{ if $aff_name }}{{ $affiliation_items = $affiliation_items | append (dict "name" $aff_name "url" $aff_url) }}{{ end }}
+          {{ end }}
+          {{ if gt (len $affiliation_items) 0 }}
+          <div class="hero-employers">
+            <span>Experience at</span>
+            <p>
+              {{ range $idx, $affiliation := $affiliation_items }}
+                {{ if gt $idx 0 }}<span class="hero-employer-separator">&middot;</span>{{ end }}
+                {{ $aff_name := index $affiliation "name" }}
+                {{ $aff_url := index $affiliation "url" }}
                 {{ if $aff_url }}
                   {{ $link := $aff_url }}
                   {{ $scheme := (urls.Parse $link).Scheme }}
@@ -300,12 +309,13 @@
                   {{ else if in (slice "http" "https") $scheme }}
                     {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
                   {{ end }}
-                  <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">{{ $aff_name }}</a>
+                  <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>{{ $aff_name }}</a>
                 {{ else }}
-                  {{ $aff_name }}
+                  <span>{{ $aff_name }}</span>
                 {{ end }}
-              </p>
-            {{ end }}
+              {{ end }}
+            </p>
+          </div>
           {{ end }}
         </div>
 
@@ -601,13 +611,14 @@
             {{ range first 4 $proof_points }}
               {{ $proof_url := "" }}
               {{ with index . "url" }}{{ $proof_url = . }}{{ end }}
-              <div class="hero-proof-item">
+              {{ $proof_meta := index . "meta" }}
+              <div class="hero-proof-item {{ if eq $proof_meta "Certification" }}hero-proof-cert{{ end }}">
                 {{ if $proof_url }}
                   <a href="{{ $proof_url | safeURL }}" target="_blank" rel="noopener">{{ index . "title" | markdownify | emojify }}</a>
                 {{ else }}
                   <span>{{ index . "title" | markdownify | emojify }}</span>
                 {{ end }}
-                {{ with index . "meta" }}<small>{{ . | markdownify | emojify }}</small>{{ end }}
+                {{ with $proof_meta }}<small>{{ . | markdownify | emojify }}</small>{{ end }}
               </div>
             {{ end }}
           </div>

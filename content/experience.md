@@ -12,7 +12,7 @@ design:
 sections:
   - block: resume-skills
     content:
-      title:
+      title: Engineering Capabilities
       username: me
   - block: tech-stack
     content:
@@ -30,18 +30,24 @@ sections:
             - name: Kubernetes
             - name: Cloudflare
             - name: CI/CD
-        - name: Data Platforms
+        - name: Data & Analytics
           items:
+            - name: Power BI
             - name: Azure Databricks
             - name: PostgreSQL
             - name: Supabase
             - name: ETL Pipelines
-        - name: Analytics & BI
-          items:
-            - name: Power BI
-            - name: Looker Studio
             - name: Cognos
             - name: Tableau
+        - name: Tools & Platforms
+          items:
+            - name: Git
+            - name: Jira
+            - name: ServiceNow
+            - name: Linux
+            - name: Selenium
+            - name: Postman
+            - name: DataStage
         - name: Engineering Practices
           items:
             - name: REST APIs
