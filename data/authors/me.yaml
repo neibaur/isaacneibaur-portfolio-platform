@@ -56,7 +56,7 @@ links:
   - icon: custom/microsoft
     url: https://learn.microsoft.com/en-us/users/isaacneibaur
     label: Microsoft Learn
-  - icon: C
+  - icon: custom/credly
     url: https://www.credly.com/users/isaacneibaur
     label: Credly
 
