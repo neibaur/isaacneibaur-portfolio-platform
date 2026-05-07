@@ -124,11 +124,11 @@ experience:
       Terraform, GitHub Actions, and the Cloudflare API to audit domain security posture
       and optionally remediate configuration drift.
       {{< landing_anchor "infrastructure-as-code" >}}
-      * Implemented Terraform workflows with automated validation, scheduled audits,
-      secure secret handling, and GitHub Actions CI/CD.
+      * Implemented Terraform workflows for validation, scheduled audits, secure secret
+      handling, and CI/CD governance.
       {{< landing_anchor "devsecops" >}}
-      * Added repository governance practices including Dependabot, CodeQL, secret
-      scanning, branch protection workflows, linting, pytest, and CI checks.
+      * Added repository safeguards including Dependabot, CodeQL, secret scanning,
+      branch protection workflows, linting, pytest, and CI checks.
       {{< landing_anchor "data-platform-development" >}}
       * Designing reusable data workflows involving APIs, ETL pipelines, medallion-style
       architecture, Supabase, PostgreSQL, and dashboard integrations.
@@ -137,7 +137,7 @@ experience:
       covering platform engineering, cloud infrastructure, automation, analytics, and
       software development practices.
     button:
-      text: Read 100DayDash
+      text: View 100DayDash Blog
       url: https://100daydash.blog/
       icon: hero/arrow-top-right-on-square
 

@@ -18,19 +18,19 @@ sections:
 
         <div class="experience-stack-list">
           <div>
-            <strong>Languages & Automation</strong>
+            <strong>Languages & Automation:</strong>
             <span>Python &middot; SQL &middot; REST APIs &middot; Postman &middot; Selenium</span>
           </div>
           <div>
-            <strong>Cloud & Platform Engineering</strong>
+            <strong>Cloud & Platform Engineering:</strong>
             <span>Terraform &middot; GitHub Actions &middot; Docker &middot; Kubernetes &middot; Cloudflare &middot; CI/CD</span>
           </div>
           <div>
-            <strong>Data & Analytics Platforms</strong>
+            <strong>Data & Analytics Platforms:</strong>
             <span>Databricks &middot; PostgreSQL &middot; Supabase &middot; Power BI &middot; ETL Pipelines</span>
           </div>
           <div>
-            <strong>Operational Tooling</strong>
+            <strong>Operational Tooling:</strong>
             <span>Git &middot; Linux &middot; Jira &middot; ServiceNow &middot; Agile</span>
           </div>
         </div>
@@ -51,10 +51,26 @@ sections:
         <h2 class="experience-section-title">Recognition</h2>
 
         <ul class="experience-recognition-list">
-          <li><strong>Secure Code Warrior Top Placement</strong><span>GM JEDI, 2024</span></li>
-          <li><strong>Geek Week Debate Team Winner</strong><span>General Motors Geek Week, 2024</span></li>
-          <li><strong>Geek Week Overall Annual Top Placement</strong><span>General Motors Geek Week, 2022 and 2024</span></li>
-          <li><strong>Hackathon Team Winner</strong><span>General Motors Geek Week, 2022</span></li>
+          <li>
+            <strong>Secure Code Warrior Top Placement</strong>
+            <span>GM JEDI, 2024</span>
+            <p>Placed in the top three in a GM JEDI secure coding challenge with 50+ participants.</p>
+          </li>
+          <li>
+            <strong>Geek Week Debate Team Winner</strong>
+            <span>General Motors Geek Week, 2024</span>
+            <p>Recognized as part of a team debate competition during General Motors Geek Week.</p>
+          </li>
+          <li>
+            <strong>Geek Week Overall Annual Top Placement</strong>
+            <span>General Motors Geek Week, 2022 and 2024</span>
+            <p>Earned annual top placement recognition based on overall Geek Week participation and points.</p>
+          </li>
+          <li>
+            <strong>Hackathon Team Winner</strong>
+            <span>General Motors Geek Week, 2022</span>
+            <p>Won a team hackathon focused on rapid problem solving and technical collaboration.</p>
+          </li>
         </ul>
     design:
       css_class: "wide-block experience-recognition"
