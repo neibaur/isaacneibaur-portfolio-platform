@@ -83,15 +83,17 @@ education:
     start: 2016-01-04
     end: 2019-12-13
     summary: |
-      Completed a computer science post-baccalaureate program with a 3.9 GPA.
+      Computer science post-baccalaureate coursework supporting software engineering,
+      systems thinking, and automation practice. GPA: 3.9.
   - degree: MS Agronomy (Plant Biotechnology)
     institution: University of Florida
     start: 2005-08-24
     end: 2007-08-14
     summary: |
-      Focused on early, novel transgenic successes in salt-resistant turfgrass. GPA: 3.8.
+      Graduate research in plant biotechnology and experimental analysis, including
+      early transgenic work in salt-resistant turfgrass. GPA: 3.8.
     button:
-      text: Download Dissertation
+      text: View Dissertation
       url: /uploads/Isaac_Neibaur_Master_Thesis.pdf
       icon: hero/arrow-down-tray
   - degree: BS Botany
@@ -303,3 +305,4 @@ certifications:
     url: "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/"
     verify_url: "https://learn.microsoft.com/api/credentials/share/en-us/IsaacNeibaur/EEAD2C1408383F"
     date: "Dec 2025"
+    summary: "Validates Power BI data modeling, semantic model development, report design, and analytics delivery practices used in dashboard engineering and data product reliability."
