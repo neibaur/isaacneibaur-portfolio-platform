@@ -1,0 +1,4 @@
+Contact: mailto:security@isaacneibaur.com
+Expires: 2027-06-18T00:00:00Z
+Preferred-Languages: en
+Canonical: https://isaacneibaur.com/.well-known/security.txt
