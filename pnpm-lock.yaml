@@ -20,6 +20,9 @@ importers:
       "@tailwindcss/typography":
         specifier: ^0.5.19
         version: 0.5.19(tailwindcss@4.2.4)
+      markdown-it:
+        specifier: ^14.2.0
+        version: 14.2.0
       markdownlint-cli2:
         specifier: ^0.22.1
         version: 0.22.1
@@ -798,6 +801,13 @@ packages:
       {
         integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==,
       }
+
+  markdown-it@14.2.0:
+    resolution:
+      {
+        integrity: sha512-1TGiQiJRQ3NPmZH6sx5Cfnmg6GQm9jvC1ch4TK511NjSJvjzKLzn5pPfZRNZkRPZP0HqCioSndqH8v2nRaWVQ==,
+      }
+    hasBin: true
 
   markdown-it@14.1.1:
     resolution:
