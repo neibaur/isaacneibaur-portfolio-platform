@@ -1,0 +1,3 @@
+Contact: mailto:hello@isaacneibaur.com
+Preferred-Languages: en
+Canonical: https://isaacneibaur.com/.well-known/security.txt
