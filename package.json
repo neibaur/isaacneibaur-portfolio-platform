@@ -7,7 +7,7 @@
     "overrides": {
       "js-yaml": "4.3.2",
       "linkify-it": "5.0.2",
-      "markdown-it": "14.2.0",
+      "markdown-it": "14.3.1",
       "smol-toml@^1": "1.8.0"
     }
   },
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@tailwindcss/cli": "^4.2.1",
     "@tailwindcss/typography": "^0.5.19",
-    "markdown-it": "^14.2.0",
+    "markdown-it": "^14.3.1",
     "markdownlint-cli2": "^0.22.1",
     "prettier": "^3.6.2",
     "tailwindcss": "^4.2.1"
