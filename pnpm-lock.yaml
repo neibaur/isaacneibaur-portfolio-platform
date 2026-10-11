@@ -19,8 +19,8 @@ importers:
         specifier: ^1.4.0
         version: 1.5.2
       preact:
-        specifier: ^10.27.3
-        version: 10.29.2
+        specifier: ^11.0.0
+        version: 11.0.0
     devDependencies:
       '@tailwindcss/cli':
         specifier: ^4.3.3
@@ -662,8 +662,13 @@ packages:
     resolution: {integrity: sha512-IQ7TZdoaqbT+LCpShg46jnZVlhWD2w6iQYAcYXfHARZ7X1t/UGhhceQDs5X0cGqKvYlHNOuv7Oa1xmb0oQuA3w==}
     engines: {node: '>=4'}
 
-  preact@10.29.2:
-    resolution: {integrity: sha512-7tNmwg/7mzzAoB/8kSg6Hl37JraAZw3Z3A0JSY7VXlZwo82Xn0G7wKbNNs2qoF4ZEEsQGTwDAroNdqKs1ofJxQ==}
+  preact@11.0.0:
+    resolution: {integrity: sha512-LRTLKuSe6VYPhvBDjwFaX+nuZnpsw6IN2GSboisAvhGsncylBmrbDCERhgKDn6yP2mAwbGvsB5OVyTe33M8gBg==}
+    peerDependencies:
+      preact-render-to-string: '>=6.7.0'
+    peerDependenciesMeta:
+      preact-render-to-string:
+        optional: true
 
   prettier@3.9.9:
     resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
@@ -1355,7 +1360,7 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  preact@10.29.2: {}
+  preact@11.0.0: {}
 
   prettier@3.9.9: {}
 
