@@ -33,11 +33,11 @@
     "preact": "^10.27.3"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.2.1",
+    "@tailwindcss/cli": "^4.3.3",
     "@tailwindcss/typography": "^0.5.19",
     "markdown-it": "^14.2.0",
-    "markdownlint-cli2": "^0.22.1",
-    "prettier": "^3.6.2",
-    "tailwindcss": "^4.2.1"
+    "markdownlint-cli2": "^0.23.3",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4.3.3"
   }
 }
